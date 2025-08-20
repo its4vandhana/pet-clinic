@@ -10,7 +10,7 @@ pipeline {
         
         stage("Git Checkout") {
             steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/Pratik-Pardeshi/Project-7-Devops-Petclinic-Web-Application-Deploy-Jenkins-Tomcat.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/its4vandhana/pet-clinic.git'
             }
         }
         
